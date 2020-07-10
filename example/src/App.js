@@ -1,10 +1,15 @@
 import React from 'react'
 
-import { ExampleComponent } from 'react-kitty'
+import { ExampleComponent, Logo } from 'react-kitty'
 import 'react-kitty/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return (
+    <div>
+      <Logo />
+      <ExampleComponent text="Create React Library Example 😄" />
+    </div>
+  )
 }
 
 export default App
